@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bài Viết</title>
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Webestica.com">
+	<meta name="description" content="Bootstrap based News, Magazine and Blog Theme">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="assets/images/favicon.svg">
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+
+	<!-- Theme CSS -->
+	<link id="style-switch" rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+	<!-- =======================
+Header START -->
+<header class="navbar-light navbar-sticky header-static">
+  <!-- Logo Nav START -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <!-- Logo START -->
+      <a class="navbar-brand" href="index.html">
+        <img class="navbar-brand-item light-mode-item" src="assets/images/logo.svg" alt="logo">
+        <img class="navbar-brand-item dark-mode-item" src="assets/images/logo.svg" alt="logo">
+      </a>
+      <!-- Logo END -->
+
+
+
+      <!-- Main navbar START -->
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav navbar-nav-scroll mx-auto">
+
+          <!-- Nav item 1 Demos -->
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html" id="homeMenu" aria-haspopup="true" aria-expanded="false">Trang chủ</a>
+          </li>
+
+          <!-- Nav item 2 Pages -->
+          <li class="nav-item">
+            <a class="nav-link" href="about.html" id="pagesMenu" aria-haspopup="true" aria-expanded="false">Giới
+              thiệu</a>
+          </li>
+
+          <!-- Nav item 3 Post -->
+          <li class="nav-item">
+            <a class="nav-link" href="post-list-card.html" id="postMenu" aria-haspopup="true" aria-expanded="false">Bài
+              Viết</a>
+          </li>
+          <!-- Nav item 3 Post -->
+          <li class="nav-item">
+            <a class="nav-link" href="video-details.html" id="postMenu" aria-haspopup="true"
+              aria-expanded="false">Video</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="image-details.html" id="postMenu" aria-haspopup="true"
+              aria-expanded="false">Hình ảnh</a>
+          </li>
+      </div>
+      <!-- Main navbar END -->
+
+      <!-- Nav right START -->
+      <div class="nav ms-sm-3 flex-nowrap align-items-center">
+        <!-- Dark mode switch -->
+        <div class="nav-item">
+          <div class="modeswitch" id="darkModeSwitch">
+            <div class="switch"></div>
+          </div>
+        </div>
+        <!-- Nav Button -->
+        <div class="nav-item d-none d-md-block">
+          <a href="#" class="btn btn-sm btn-danger mb-0 mx-2">Nhận tin!</a>
+        </div>
+        <!-- Nav Search -->
+        <div class="nav-item dropdown nav-search dropdown-toggle-icon-none">
+          <a class="nav-link pe-0 dropdown-toggle" role="button" href="#" id="navSearch" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <i class="bi bi-search fs-4"> </i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-end shadow rounded p-2" aria-labelledby="navSearch">
+            <form class="input-group">
+              <input class="form-control border-success" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success m-0" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Responsive navbar toggler -->
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="text-body h6 d-none d-sm-inline-block">Menu</span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Nav right END -->
+      </div>
+    </div>
+  </nav>
+  <!-- Logo Nav END -->
+</header>
+<!-- =======================
+Header END -->
+
+<!-- **************** MAIN CONTENT START **************** -->
+<main>
+
+<!-- =======================
+Inner intro START -->
+<section class="pb-4 pt-3">
+	<div class="container">
+		<div class="row">
+      <div class="col-12">
+        <div class="card bg-dark-overlay-3 h-300 overflow-hidden card-bg-scale text-center" style="background-image:url(assets/images/blog/16by9/07.jpg); background-position: center left; background-size: cover;">
+          <!-- Card Image overlay -->
+          <div class="card-img-overlay d-flex align-items-center p-3 p-sm-4"> 
+            <div class="col-md-8 m-auto bg-blur p-5 rounded-3 shadow-lg">
+							<h1 class="text-white">Bài Viết</h1>
+							<nav class="d-flex justify-content-center" aria-label="breadcrumb">
+						<ol class="breadcrumb breadcrumb-dark breadcrumb-dots mb-0">
+							<li class="breadcrumb-item"><a href="index.html"><i class="bi bi-house me-1"></i> Trang chủ</a></li>
+							<li class="breadcrumb-item active">Bài viết</li>
+						</ol>
+					</nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	</div>
+</section>
+<!-- =======================
+Inner intro END -->
+
+<!-- =======================
+Main content START -->
+<section class="position-relative pt-0">
+	<div class="container">
+    <!-- Nav Filters -->
+		<div class="row">
+			<div class="col-12">
+				<div class="grid-menu" data-target=".filter-container">
+					<ul class="nav nav-pills justify-content-start mb-3">
+						<li class="nav-item"> <span class="nav-link disabled ps-0">Show me:</span> </li>
+						<li class="nav-item"> <a data-filter="*" class="nav-link active">Tất cả</a> </li>
+						<li class="nav-item"> <a data-filter=".travel-category" class="nav-link">Du lịch</a> </li>
+						<li class="nav-item"> <a data-filter=".covid-category" class="nav-link">Covid-19</a> </li>
+						<li class="nav-item"> <a data-filter=".photo-category" class="nav-link">Đời sống</a> </li>
+						<li class="nav-item"> <a data-filter=".business-category" class="nav-link">Kinh doanh</a> </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row filter-container overflow-hidden" data-isotope='{"layoutMode": "masonry"}'>
+			<!-- Card item START -->
+			<div class="col-sm-6 col-lg-4 grid-item business-category">
+				<div class="card mb-4">
+					<!-- Card img -->
+					<div class="card-fold position-relative">
+						<img class="card-img" src="assets/images/blog/4by3/07.jpg" alt="Card image">
+					</div>
+					<div class="card-body px-0 pt-3">
+						<h4 class="card-title"><a href="post-details.html" class="btn-link text-reset fw-bold">Hành động vì tương lai</a></h4>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit aut recusandae voluptas aspernatur commodi quaerat sit dolor, earum voluptatem accusantium incidunt officiis in nostrum deleniti aperiam voluptatibus eum accusamus fugit! </p>
+						<!-- Card info -->
+						<ul class="nav nav-divider align-items-center text-uppercase small">
+							<li class="nav-item">
+								<a href="#" class="nav-link text-reset btn-link">James</a>
+							</li>
+							<li class="nav-item">Mar 07, 2021</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- Card item END -->
+			<!-- Card item START -->
+			<div class="col-sm-6 col-lg-4 grid-item travel-category photo-category">
+				<div class="card mb-4">
+					<!-- Card img -->
+					<div class="card-fold position-relative">
+						<img class="card-img" src="assets/images/blog/3by4/06.jpg" alt="Card image">
+						<div class="card-img-overlay d-flex align-items-start flex-column p-3">
+							<!-- Card overlay Top -->
+							<div class="w-100 mb-auto d-flex justify-content-end">
+								<div class="text-end ms-auto">
+									<!-- Card format icon -->
+									<div class="icon-md bg-white-soft bg-blur text-white fw-bold rounded-circle" title="8.5 rating">8.5</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card-body px-0 pt-3">
+						<h4 class="card-title"><a href="post-details.html" class="btn-link text-reset fw-bold">Du lịch sau dịch bệnh, có nên hay không?</a></h4>
+            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa ad laudantium sit voluptatem quia minus explicabo dolores optio consequatur, aliquid deleniti error harum maxime ab ipsam soluta magnam architecto nihil.</p>
+						<!-- Card info -->
+						<ul class="nav nav-divider align-items-center text-uppercase small">
+							<li class="nav-item">
+								<a href="#" class="nav-link text-reset btn-link">James</a>
+							</li>
+							<li class="nav-item">Aug 15, 2022</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- Card item END -->
+			<!-- Card item START -->
+			<div class="col-sm-6 col-lg-4 grid-item covid-category business-category">
+				<div class="card mb-4">
+					<!-- Card img -->
+					<div class="card-fold position-relative">
+						<img class="card-img" src="assets/images/blog/4by3/09.jpg" alt="Card image">
+					</div>
+					<div class="card-body px-0 pt-3">
+						<h4 class="card-title"><a href="post-details.html" class="btn-link text-reset fw-bold">Văn hoá bắt tay thay đổi vì Covid-19</a></h4>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ut maiores, consequatur hic repellat recusandae deserunt esse fugit obcaecati, dignissimos molestias id quo laborum iste perferendis, quaerat sit ab iure?</p>
+						<!-- Card info -->
+						<ul class="nav nav-divider align-items-center text-uppercase small">
+							<li class="nav-item">
+								<a href="#" class="nav-link text-reset btn-link">James</a>
+							</li>
+							<li class="nav-item">Jun 01, 2021</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- Card item END -->
+			<!-- Card item START -->
+			<div class="col-sm-6 col-lg-4 grid-item covid-category">
+				<div class="card mb-4">
+					<!-- Card img -->
+					<div class="card-fold position-relative">
+						<img class="card-img" src="assets/images/blog/1by1/03.jpg" alt="Card image">
+					</div>
+					<div class="card-body px-0 pt-3">
+						<h4 class="card-title"><a href="post-details.html" class="btn-link text-reset fw-bold">Làm việc trong mùa dịch, cảm giác mới!</a></h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam facilis dolore architecto sunt doloremque perferendis nesciunt. Natus veritatis iste dolorum optio repudiandae ab quaerat. Iure vero molestias minus at numquam.</p>
+						<!-- Card info -->
+						<ul class="nav nav-divider align-items-center text-uppercase small">
+							<li class="nav-item">
+								<a href="#" class="nav-link text-reset btn-link">James</a>
+							</li>
+							<li class="nav-item">Dec 07, 2022</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- Card item END -->
+			<!-- Card item START -->
+			<div class="col-sm-6 col-lg-4 grid-item photo-category">
+				<div class="card mb-4">
+					<!-- Card img -->
+					<div class="card-fold position-relative">
+						<img class="card-img" src="assets/images/blog/4by3/11.jpg" alt="Card image">
+						<div class="card-img-overlay d-flex align-items-start flex-column p-3">
+							<!-- Card overlay Top -->
+							<div class="w-100 mb-auto d-flex justify-content-end">
+								<div class="text-end ms-auto">
+									<!-- Card format icon -->
+									<div class="icon-md bg-success text-white fw-bold rounded-circle" title="This post has video"><i class="fas fa-video"></i></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card-body px-0 pt-3">
+						<h4 class="card-title"><a href="post-details.html" class="btn-link text-reset fw-bold">Những bức ảnh độc đáo nhất mùa Covid</a></h4>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In corrupti, amet iusto neque debitis iure animi esse a adipisci alias facilis, consequatur vitae aspernatur non. Autem laborum commodi laboriosam dignissimos!</p>
+						<!-- Card info -->
+						<ul class="nav nav-divider align-items-center text-uppercase small">
+							<li class="nav-item">
+								<a href="#" class="nav-link text-reset btn-link">James</a>
+							</li>
+							<li class="nav-item">Sep 07, 2021</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- Card item END -->
+			<!-- Card item START -->
+			<div class="col-sm-6 col-lg-4 grid-item travel-category">
+				<div class="card mb-4">
+					<!-- Card img -->
+					<div class="card-fold position-relative">
+						<img class="card-img" src="assets/images/blog/4by3/12.jpg" alt="Card image">
+					</div>
+					<div class="card-body px-0 pt-3">
+						<h4 class="card-title"><a href="post-details.html" class="btn-link text-reset fw-bold">Văn hoá du dịch tâm linh</a></h4>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime officia ab, accusamus quis similique neque perferendis maiores ipsa hic, eligendi consequuntur culpa reiciendis illo itaque vitae ad doloremque mollitia earum.</p>
+						<!-- Card info -->
+						<ul class="nav nav-divider align-items-center text-uppercase small">
+							<li class="nav-item">
+								<a href="#" class="nav-link text-reset btn-link">James</a>
+							</li>
+							<li class="nav-item">Aug 06, 2021</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- Card item END -->
+			<!-- Card item START -->
+			<div class="col-sm-6 col-lg-4 grid-item business-category">
+				<div class="card mb-4">
+					<!-- Card img -->
+					<div class="card-fold position-relative">
+						<img class="card-img" src="assets/images/blog/4by3/13.jpg" alt="Card image">
+					</div>
+					<div class="card-body px-0 pt-3">
+						<h4 class="card-title"><a href="post-details.html" class="btn-link text-reset fw-bold">Cảm xúc có quyết định nhiều trong kinh doanh?</a></h4>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, cumque aperiam. Tempora ipsum ex consectetur autem atque delectus accusantium molestias, commodi dolorum nisi nihil. Commodi facilis eveniet vel sequi corrupti.</p>
+						<!-- Card info -->
+						<ul class="nav nav-divider align-items-center text-uppercase small">
+							<li class="nav-item">
+								<a href="#" class="nav-link text-reset btn-link">James</a>
+							</li>
+							<li class="nav-item">Feb 18, 2021</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- Card item END -->
+			<!-- Card item START -->
+			<div class="col-sm-6 col-lg-4 grid-item photo-category travel-category">
+				<div class="card mb-4">
+					<!-- Card img -->
+					<div class="card-fold position-relative">
+						<img class="card-img" src="assets/images/blog/4by3/14.jpg" alt="Card image">
+						<div class="card-img-overlay d-flex align-items-start flex-column p-3">
+							<!-- Card overlay Top -->
+							<div class="w-100 mb-auto d-flex justify-content-end">
+								<div class="text-end ms-auto">
+									<!-- Card format icon -->
+									<div class="icon-md bg-danger text-white fw-bold rounded-circle" title="This post has audio"><i class="fas fa-volume-up"></i></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card-body px-0 pt-3">
+						<h4 class="card-title"><a href="post-details.html" class="btn-link text-reset fw-bold">Khám phá ngôi nhà của bạn mùa giãn cách</a></h4>
+            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis quasi, impedit itaque ipsam maxime aliquam. Laborum minus necessitatibus incidunt cumque provident quia, earum voluptatibus vel saepe quibusdam doloribus? Dicta, consequatur?</p>
+						<!-- Card info -->
+						<ul class="nav nav-divider align-items-center text-uppercase small">
+							<li class="nav-item">
+								<a href="#" class="nav-link text-reset btn-link">James</a>
+							</li>
+							<li class="nav-item">Jun 03, 2021</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- Card item END -->
+      <!-- Card item START -->
+			<div class="col-sm-6 col-lg-4 grid-item covid-category">
+				<div class="card mb-4">
+					<!-- Card img -->
+					<div class="card-fold position-relative">
+						<img class="card-img" src="assets/images/blog/4by3/05.jpg" alt="Card image">
+						<div class="card-img-overlay d-flex align-items-start flex-column p-3">
+							<!-- Card overlay Top -->
+							<div class="w-100 mb-auto d-flex justify-content-end">
+								<div class="text-end ms-auto">
+									<!-- Card format icon -->
+									<div class="icon-md bg-warning text-white fw-bold rounded-circle" title="This post has audio"><i class="fas fa-volume-up"></i></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card-body px-0 pt-3">
+						<h4 class="card-title"><a href="post-details.html" class="btn-link text-reset fw-bold">Khám phá thế giới qua lăng kính mới</a></h4>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus earum quidem aliquid debitis amet adipisci, ab odit! Alias aperiam praesentium deleniti tenetur a labore. Nesciunt laboriosam aperiam dicta dolorem minus.</p>
+						<!-- Card info -->
+						<ul class="nav nav-divider align-items-center text-uppercase small">
+							<li class="nav-item">
+								<a href="#" class="nav-link text-reset btn-link">James</a>
+							</li>
+							<li class="nav-item">Jun 03, 2021</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- Card item END -->
+		</div> <!-- Row end -->
+	</div>
+</section>
+<!-- =======================
+Main content END -->
+
+</main>
+<!-- **************** MAIN CONTENT END **************** -->
+
+<!--Footer START -->
+<footer>
+  <div class="container">
+    <!-- About and Newsletter START -->
+    <div class="row bg-light py-5 mx-0 card-header align-items-center text-center text-md-start">
+      <!-- Copyright -->
+      <div class="col-md-5 mb-3 mb-md-0">
+        <div class="text-black">©2021 <a href="" class="text-reset btn-link" target="_blank">James</a>. All rights reserved
+        </div>
+      </div>
+      <!-- Logo -->
+      <div class="col-md-3 mb-3 mb-md-0">
+        <img src="assets/images/logo-footer.svg" alt="footer logo">
+      </div>
+      <!-- Social links -->
+      <div class="col-md-4">
+        <ul class="nav text-black justify-content-center justify-content-md-end">
+          <li class="nav-item">
+            <a class="nav-link px-2 fs-5" href="#"><i class="fab fa-facebook-square"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2 fs-5" href="#"><i class="fab fa-twitter-square"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2 fs-5" href="#"><i class="fab fa-linkedin"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2 fs-5" href="#"><i class="fab fa-youtube-square"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ps-2 pe-0 fs-5" href="#"><i class="fab fa-vimeo"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- About and Newsletter END -->
+  </div>
+</footer>
+<!-- =======================
+Footer END -->
+
+<!-- Back to top -->
+<div class="back-top"><i class="bi bi-arrow-up-short"></i></div>
+
+<!-- =======================
+JS libraries, plugins and custom scripts -->
+
+<!-- Bootstrap JS -->
+<script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Vendors -->
+<script src="assets/vendor/isotope/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/imagesLoaded/imagesloaded.js"></script>
+
+<!-- Template Functions -->
+<script src="assets/js/functions.js"></script>
+
+</body>
+</html>
